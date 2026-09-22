@@ -1,0 +1,15 @@
+import javax.swing.SwingUtilities;
+
+/**
+ *
+ * @author Edmundo Dela Cruz
+ */
+public class listSampleAppMain {
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            listSampleApp app = new listSampleApp();
+            app.setVisible(true);
+        });
+    }
+}
